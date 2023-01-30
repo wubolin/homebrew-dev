@@ -6,7 +6,7 @@ class ApiTestChannel < Formula
   homepage ""
   url "https://github.com/wubolin/homebrew-dev/archive/refs/tags/v1.0.0.tar.gz"
   version "v1.0.0"
-  sha256 "2953b4ac541aa348a8b22e24c79860a91d7bc8e10380314475a13a735e586ee0"
+  sha256 "bf7928be23669fdbe2928b970ac996f14571fea9f2869d6abfdd394603af598d"
   license ""
 
   # depends_on "cmake" => :build
