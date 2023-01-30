@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class TestApi < Formula
+class ApiTestChannel < Formula
   desc ""
   homepage ""
   url "https://github.com/wubolin/homebrew-dev/archive/refs/tags/v1.0.0.tar.gz"
