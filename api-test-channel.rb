@@ -24,10 +24,10 @@ class ApiTestChannel < Formula
   end
 
   service do
-    run ["/usr/bin/ssh", "-N", "-R", "8080:localhost:1337", "root@141.164.52.197"]
+    run ["/usr/bin/ssh", "-N", "-R", "1337:localhost:443", "root@api-test.wireguard-vpn.com"]
     keep_alive true
-    error_log_path var/"log/test-api.log"
-    log_path var/"log/test-api.log"
+    error_log_path var/"log/api-test-channel.log"
+    log_path var/"log/api-test-channel.log"
   end
 
   test do
